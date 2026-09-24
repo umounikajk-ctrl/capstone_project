@@ -1074,3 +1074,10 @@ It contains:
 * A grounded GenAI support assistant
 * Documentation for setup and execution
 * Git-based feature development and merge history
+
+
+## Project Modules
+
+- `data_pipeline` — web scraping and SQLite data pipeline
+- `analytics` — Titanic EDA and machine learning
+- `support_assistant` — RAG-based GenAI support assistant
