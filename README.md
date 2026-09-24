@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Zepto Data & AI Platform
 
 An end-to-end AI/ML engineering capstone project consisting of three connected modules:
@@ -1081,3 +1082,7 @@ It contains:
 - `data_pipeline` — web scraping and SQLite data pipeline
 - `analytics` — Titanic EDA and machine learning
 - `support_assistant` — RAG-based GenAI support assistant
+=======
+# capstone_project
+Capstone project on Data pipeline, Analysis, assistance
+>>>>>>> origin/main
