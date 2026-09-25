@@ -14,35 +14,35 @@ All three modules are maintained in this single repository.
 
 ```text
 Zepto-data-ai-platform/
-â”‚
-â”œâ”€â”€ README.md
-â”‚
-â”œâ”€â”€ data_pipeline/
-â”‚   â”œâ”€â”€ data_pipeline.py
-â”‚   â”œâ”€â”€ books.db
-â”‚   â”œâ”€â”€ query_results.txt
-â”‚   â”œâ”€â”€ README.md
-â”‚   â””â”€â”€ requirements.txt
-â”‚
-â”œâ”€â”€ analytics/
-â”‚   â”œâ”€â”€ 01_eda.ipynb
-â”‚   â”œâ”€â”€ 02_modeling.ipynb
-â”‚   â”œâ”€â”€ charts/
-â”‚   â”œâ”€â”€ titanic.csv
-â”‚   â”œâ”€â”€ titanic_survival_pipeline.joblib
-â”‚   â”œâ”€â”€ README.md
-â”‚   â””â”€â”€ requirements.txt
-â”‚
-â””â”€â”€ support_assistant/
-    â”œâ”€â”€ data/
-    â”œâ”€â”€ docs/
-    â”œâ”€â”€ Dockerfile
-    â”œâ”€â”€ graph.py
-    â”œâ”€â”€ ingest.py
-    â”œâ”€â”€ main.py
-    â”œâ”€â”€ prompts.py
-    â”œâ”€â”€ README.md
-    â””â”€â”€ requirements.txt
+|
+|-- README.md
+|
+|-- data_pipeline/
+|   |-- data_pipeline.py
+|   |-- books.db
+|   |-- query_results.txt
+|   |-- README.md
+|   `-- requirements.txt
+|
+|-- analytics/
+|   |-- 01_eda.ipynb
+|   |-- 02_modeling.ipynb
+|   |-- charts/
+|   |-- titanic.csv
+|   |-- titanic_survival_pipeline.joblib
+|   |-- README.md
+|   `-- requirements.txt
+|
+`-- support_assistant/
+    |-- data/
+    |-- docs/
+    |-- Dockerfile
+    |-- graph.py
+    |-- ingest.py
+    |-- main.py
+    |-- prompts.py
+    |-- README.md
+    `-- requirements.txt
 ```
 
 Virtual environments (`.venv`), `.env` files, Python cache files, and other local/generated files are excluded from Git using `.gitignore`.
